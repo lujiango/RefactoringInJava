@@ -16,9 +16,18 @@ Refactoring-Improving the Design of Existing Code
 将这段代码放进一个独立函数中，并让函数名称解释该函数的用途。
 ```
 6.2 Inline Method(内联函数)[src](https://github.com/lujiango/RefactoringInJava/blob/master/src/_06/_06_02_InlineMethod.java)<br>
-6.3 Replace Temp with Query(以查询取代临时变量)<br>
-6.4 Introduce Explaining Variable(引入解释性变量)<br>
-6.5 ...
+6.3 Inline Temp(内联临时变量)[src]()
+```
+有一个临时变量，只被一个简单表达式赋值一次，而它妨碍了其它重构手法。
+<br>将所有对该变量的引用动作，替换为对它赋值的那个表达式自身。
+```
+6.4 Replace Temp with Query(以查询取代临时变量)[src]()<br>
+```
+程序以一个临时变量保存某一表达式的运算结果。
+<br>将这个表达式提炼到一个独立函数中，将这个临时变量的所有引用点替换为对新函数的调用，此后，新函数就可被其它函数使用。
+```
+6.5 Introduce Explaining Variable(引入解释性变量)<br>
+6.6 ...
 ##第7章 在对象之间搬移特性
 7.1 Move Method(搬移函数)<br>
 7.2 Move Field(搬移字段)<br>
