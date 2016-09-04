@@ -9,7 +9,7 @@ package _06;
  * @author lujiang
  *
  */
-public class _6_1_ExtractMethod {
+public class _06_01_ExtractMethod {
 	private String name;
 
 	void printBanner() {
