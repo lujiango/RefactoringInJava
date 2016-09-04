@@ -10,8 +10,8 @@ Refactoring-Improving the Design of Existing Code
 3.7 Feature Envy(依恋情结)<br>
 3.8 ...
 ##第6章 重新组织函数
-6.1 Extract Method(提炼函数)<br>
-6.2 Inline Method(内联函数)<br>
+6.1 Extract Method(提炼函数)[src](https://github.com/lujiango/RefactoringInJava/blob/master/src/_06/_06_01_ExtractMethod.java)<br>
+6.2 Inline Method(内联函数)[src](https://github.com/lujiango/RefactoringInJava/blob/master/src/_06/_06_02_InlineMethod.java)<br>
 6.3 Replace Temp with Query(以查询取代临时变量)<br>
 6.4 Introduce Explaining Variable(引入解释性变量)<br>
 6.5 ...
